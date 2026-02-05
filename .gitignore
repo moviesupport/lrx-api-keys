@@ -1,0 +1,16 @@
+# Python 虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
+*.bak
+
+# 明文密钥文件（必须忽略，只保留加密文件）
+keys.json
+!keys.json.encrypted
+
+# 系统文件
+.DS_Store
+
